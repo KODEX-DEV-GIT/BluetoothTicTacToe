@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
+    <string name="admob_app_id">ca-app-pub-4239528192908800~3367128117</string>
+    <string name="admob_banner_unit_id">ca-app-pub-4239528192908800/8919167262</string>
+    <string name="admob_interstitial_unit_id">ca-app-pub-4239528192908800/7656746975</string>
+    <string name="game_services_project_id">570314058218</string>
 </resources>

@@ -19,3 +19,12 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#-renamesourcefileattribute SourceFile
+
+-keepattributes *Annotation*
+-dontwarn javax.inject.**, dagger.**
+-keep class com.google.android.gms.ads.** { *; }
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
