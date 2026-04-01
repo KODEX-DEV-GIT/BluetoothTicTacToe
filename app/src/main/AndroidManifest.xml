@@ -46,6 +46,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+
+    </application>
+    <!--    Tic Tac Toe-->
+    <!--    facebook_app_id:1666706900985978-->
+    <!--    facebook_client_token:948dc2081354410f3171a291308680a7-->
+    <!--    APP_ID:h69bbb3fe25009-->
+    <!--    APP_KEY:a631419ae054d74114d3359f8dcac8d91-->
+    <!--    Email:z6i4ofm6@163.com-->
 </manifest>

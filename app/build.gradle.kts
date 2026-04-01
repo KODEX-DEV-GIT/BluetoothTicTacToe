@@ -16,8 +16,8 @@ android {
         applicationId = "com.oke.pcj.tictactoe"
         minSdk = 28
         targetSdk = 36
-        versionCode = 3
-        versionName = "3.0"
+        versionCode = 4
+        versionName = "4.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -78,4 +78,17 @@ dependencies {
     implementation(libs.hilt.compose.navigation)
     implementation(libs.play.services.ads)
     implementation(libs.play.services.games.v2)
+
+
+//    Facebook App Links for attribution
+    implementation("com.facebook.android:facebook-applinks:18.0.2")
+    implementation("com.facebook.android:audience-network-sdk:6.19.0")
+// TopOn
+    implementation("com.google.android.gms:play-services-basement:18.4.0")
+    implementation("com.anythink.sdk:core-tpn:6.4.69")
+    implementation("com.anythink.sdk:interstitial-tpn:6.4.69")
+    implementation("androidx.appcompat:appcompat:1.1.0")
+    implementation("androidx.browser:browser:1.4.0")
+    implementation("com.anythink.sdk:adapter-tpn-facebook:6.4.69")
+    implementation("androidx.annotation:annotation:1.0.0")
 }

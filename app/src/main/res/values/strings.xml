@@ -4,4 +4,7 @@
     <string name="admob_banner_unit_id">ca-app-pub-4239528192908800/8919167262</string>
     <string name="admob_interstitial_unit_id">ca-app-pub-4239528192908800/7656746975</string>
     <string name="game_services_project_id">570314058218</string>
+
+    <string name="facebook_app_id">1666706900985978</string>
+    <string name="facebook_client_token">948dc2081354410f3171a291308680a7</string>
 </resources>

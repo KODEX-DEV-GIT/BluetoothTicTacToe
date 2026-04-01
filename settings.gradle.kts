@@ -7,6 +7,9 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        maven {
+            url = uri("https://jfrog.anythinktech.com/artifactory/overseas_sdk")
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -19,7 +22,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://jfrog.anythinktech.com/artifactory/overseas_sdk")
+        }
     }
+
 }
 
 rootProject.name = "Tic Tac Toe"
